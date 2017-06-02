@@ -14,8 +14,8 @@ username_path = driver.find_element_by_css_selector("input#IDToken1")
 password_path = driver.find_element_by_css_selector("input#IDToken2")
 login_path = driver.find_element_by_name("Login.Submit")
 
-username_path.send_keys("hkk827")
-password_path.send_keys("Cicili1597!!")
+username_path.send_keys("username")
+password_path.send_keys("password")
 login_path.submit()
 
 ####### Duo Mobile should be done manually
